@@ -1,5 +1,7 @@
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset")
+let heading = document.querySelector("h1");
+
 
 
 let turnO = true;//playerX playerO
@@ -44,6 +46,9 @@ const checkWinner =()=>{
             if(pos1Val !="" && pos2Val !="" && pos3Val !="" ){
                 if(pos1Val ===pos2Val && pos2Val ===pos3Val  ){
                     console.log("Winner !",pos1Val);
+                    heading.innerText=`Winner is ${pos1Val}`;
+                    
+                    
                 }
             }
 
@@ -52,3 +57,7 @@ const checkWinner =()=>{
         
     }
 }
+//trying to add reset btn
+let reset = document.addEventListener("click",(resetBtn)=>{
+    boxes.innerText="";
+})
