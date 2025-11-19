@@ -57,6 +57,7 @@ boxes.forEach((box)=>{
     });
 }
 );
+resetBtn.addEventListener("click",resetGame);
 
 
 const checkWinner =()=>{
@@ -74,7 +75,7 @@ const checkWinner =()=>{
                    heading.innerText=`Winner is ${pos1Val}`;
                     //showWinner();
                     disable();
-                    resetBtn.addEventListener("click",resetGame);
+                    
                     
                     
                 }
