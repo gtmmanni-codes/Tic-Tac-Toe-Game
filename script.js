@@ -15,6 +15,27 @@ const winPattern =[
     [0,4,8],
     [2,4,6],
 ];
+const disable =()=>{
+    for(let box of boxes){
+        box.disabled=true;
+    }
+
+}
+const enableboxes =()=>{
+     for(let box of boxes){
+        box.disabled=false;
+    }
+
+}
+
+const resetGame = (box)=>{
+    for(let box of boxes){
+        enableboxes();
+        
+        box.innerText="";
+        turnO =true;
+    }
+}
 
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
@@ -33,6 +54,10 @@ boxes.forEach((box)=>{
     });
 }
 );
+//const showWinner = ()=>{
+  //  heading.innerText= `The winner is ${pos1Val}`;
+
+//}
 
 const checkWinner =()=>{
     for(pattern of winPattern){
@@ -46,7 +71,10 @@ const checkWinner =()=>{
             if(pos1Val !="" && pos2Val !="" && pos3Val !="" ){
                 if(pos1Val ===pos2Val && pos2Val ===pos3Val  ){
                     console.log("Winner !",pos1Val);
-                    heading.innerText=`Winner is ${pos1Val}`;
+                   heading.innerText=`Winner is ${pos1Val}`;
+                    //showWinner();
+                    disable();
+                    resetBtn.addEventListener("click",resetGame());
                     
                     
                 }
@@ -58,6 +86,4 @@ const checkWinner =()=>{
     }
 }
 //trying to add reset btn
-let reset = document.addEventListener("click",(resetBtn)=>{
-    boxes.innerText="";
-})
+
