@@ -29,13 +29,16 @@ const enableboxes =()=>{
 }
 
 const resetGame = (box)=>{
+    enableboxes();
     for(let box of boxes){
-        enableboxes();
+        
         
         box.innerText="";
-        turnO =true;
+        
     }
-}
+    heading.innerText = "Tic Tac Toe";
+    turnO =true;
+};
 
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
@@ -54,10 +57,7 @@ boxes.forEach((box)=>{
     });
 }
 );
-//const showWinner = ()=>{
-  //  heading.innerText= `The winner is ${pos1Val}`;
 
-//}
 
 const checkWinner =()=>{
     for(pattern of winPattern){
@@ -74,7 +74,7 @@ const checkWinner =()=>{
                    heading.innerText=`Winner is ${pos1Val}`;
                     //showWinner();
                     disable();
-                    resetBtn.addEventListener("click",resetGame());
+                    resetBtn.addEventListener("click",resetGame);
                     
                     
                 }
@@ -85,5 +85,5 @@ const checkWinner =()=>{
         
     }
 }
-//trying to add reset btn
+
 
