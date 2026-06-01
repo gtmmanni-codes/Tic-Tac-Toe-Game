@@ -31,3 +31,18 @@ JavaScript
 - All boxes are disabled.
 
 7. Click the Reset button to start a new game.
+
+## 🧠 Winning Patterns
+
+The game checks the following winning combinations:
+
+[
+[0,1,2],
+[3,4,5],
+[6,7,8],
+[0,3,6],
+[1,4,7],
+[2,5,8],
+[0,4,8],
+[2,4,6]
+]
