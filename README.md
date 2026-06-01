@@ -24,3 +24,10 @@ JavaScript
 2. Player O starts first.
 3. Click on any empty box to place your mark.
 4. Players alternate turns between O and X.
+5. The game checks for a winner after every move.
+6. Once a winner is found:
+
+- The winner is displayed in the heading.
+- All boxes are disabled.
+
+7. Click the Reset button to start a new game.
