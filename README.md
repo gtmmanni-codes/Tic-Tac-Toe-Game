@@ -46,3 +46,12 @@ The game checks the following winning combinations:
 [0,4,8],
 [2,4,6]
 ]
+
+## 🔮 Future Improvements
+
+- Draw/Tie game detection
+- Scoreboard for players
+- Single-player mode against AI
+- Sound effects
+- Restart and New Game buttons
+- Improved animations and UI
