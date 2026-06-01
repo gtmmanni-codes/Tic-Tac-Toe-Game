@@ -59,3 +59,6 @@ The game checks the following winning combinations:
 ## 👨‍💻 Author
 
 Developed as a beginner JavaScript project to practice:
+
+- DOM Manipulation
+- Event Handling
