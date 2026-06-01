@@ -17,3 +17,7 @@ Tic-Tac-Toe is a classic 3×3 strategy game built using HTML, CSS, and JavaScrip
 HTML5
 CSS3
 JavaScript
+
+## 🎯 How to Play
+
+1. Open index.html in your browser.
