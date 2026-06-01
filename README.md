@@ -55,3 +55,7 @@ The game checks the following winning combinations:
 - Sound effects
 - Restart and New Game buttons
 - Improved animations and UI
+
+## 👨‍💻 Author
+
+Developed as a beginner JavaScript project to practice:
