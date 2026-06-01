@@ -62,3 +62,5 @@ Developed as a beginner JavaScript project to practice:
 
 - DOM Manipulation
 - Event Handling
+- Game Logic
+- CSS Flexbox Layout
