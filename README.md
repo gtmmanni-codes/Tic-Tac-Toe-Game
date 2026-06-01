@@ -21,3 +21,6 @@ JavaScript
 ## 🎯 How to Play
 
 1. Open index.html in your browser.
+2. Player O starts first.
+3. Click on any empty box to place your mark.
+4. Players alternate turns between O and X.
