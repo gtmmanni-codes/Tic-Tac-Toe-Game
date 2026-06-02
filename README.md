@@ -65,5 +65,6 @@ Developed as a beginner JavaScript project to practice:
 - Game Logic
 - CSS Flexbox Layout
 - learning new
+- API call
 
 by gautam
