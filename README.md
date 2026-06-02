@@ -64,5 +64,6 @@ Developed as a beginner JavaScript project to practice:
 - Event Handling
 - Game Logic
 - CSS Flexbox Layout
+- learning new
 
 by gautam
